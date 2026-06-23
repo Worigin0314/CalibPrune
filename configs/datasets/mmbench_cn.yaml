@@ -1,0 +1,9 @@
+tag: mmbench_cn
+source: lmms-lab/MMBench
+config: cc
+split: dev
+sample_count: 4377
+task_type: multiple_choice
+answer_space: [A, B, C, D]
+paper_use: Chinese benchmark for PRICAI relevance
+

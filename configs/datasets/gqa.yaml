@@ -1,0 +1,7 @@
+tag: gqa
+source: lmms-lab/GQA
+split: testdev_balanced
+sample_count: 5000
+task_type: open_ended_vqa
+answer_space: top3000
+

@@ -1,0 +1,5 @@
+name: temperature_scaling
+t_grid_start: 0.5
+t_grid_stop: 3.0
+t_grid_step: 0.05
+

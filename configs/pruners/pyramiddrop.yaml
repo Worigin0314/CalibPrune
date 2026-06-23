@@ -1,0 +1,6 @@
+name: pyramiddrop
+reference: github.com/Cooperx521/PyramidDrop
+trigger_layers: [8, 16, 24]
+requires_attentions: true
+status: listed_not_implemented
+paper_eligible: false

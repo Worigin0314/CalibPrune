@@ -1,0 +1,8 @@
+tag: qwen2vl_2b
+hf_repo: Qwen/Qwen2-VL-2B-Instruct
+params_billion: 2.21
+precision: nf4_bf16
+primary: false
+max_new_tokens: 64
+notes: Cross-architecture small VLM.
+

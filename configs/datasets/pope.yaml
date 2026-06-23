@@ -1,0 +1,8 @@
+tag: pope
+source: lmms-lab/POPE
+split: test
+sample_count: 9000
+task_type: binary_vqa
+answer_space: [no, yes]
+paper_use: hallucination calibration and selective prediction
+

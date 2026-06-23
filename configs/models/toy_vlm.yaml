@@ -1,0 +1,8 @@
+tag: toy_vlm
+hf_repo: null
+params_billion: 0
+precision: fixture
+primary: false
+max_new_tokens: 1
+notes: Local deterministic fixture for pipeline smoke tests only.
+

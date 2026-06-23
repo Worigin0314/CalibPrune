@@ -1,0 +1,11 @@
+name: visionzip
+reference: github.com/dvlab-research/VisionZip
+trigger_layer: vision_encoder
+requires_attentions: true
+status: llava_hook_experimental
+paper_eligible: false
+notes: >
+  Training-free core hook is wired for the local Hugging Face LLaVA path:
+  dominant tokens are selected from CLIP CLS attention and contextual tokens are
+  merged from remaining tokens by key-space similarity. Keep paper_eligible
+  false until real-model reproduction and official-number checks are complete.

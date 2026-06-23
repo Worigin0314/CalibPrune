@@ -1,0 +1,8 @@
+tag: minicpmv26_2b
+hf_repo: openbmb/MiniCPM-V-2_6
+params_billion: 2.43
+precision: nf4_bf16
+primary: false
+max_new_tokens: 64
+notes: Cross-architecture small VLM.
+

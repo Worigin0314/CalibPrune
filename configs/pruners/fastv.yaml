@@ -1,0 +1,6 @@
+name: fastv
+reference: github.com/pkunlp-icler/FastV
+trigger_layer: 2
+requires_attentions: true
+status: llava_model_hook
+paper_eligible: false

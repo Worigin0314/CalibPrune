@@ -1,0 +1,8 @@
+tag: llava15_7b_4bit
+hf_repo: llava-hf/llava-1.5-7b-hf
+params_billion: 7.06
+precision: nf4_bf16
+primary: true
+max_new_tokens: 64
+notes: Primary PRICAI backbone. Requires real download before paper runs.
+

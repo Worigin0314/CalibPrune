@@ -1,0 +1,7 @@
+tag: scienceqa
+source: derek-thomas/ScienceQA
+split: test
+sample_count: 4241
+task_type: multiple_choice
+answer_space: [A, B, C, D, E]
+

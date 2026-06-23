@@ -1,0 +1,7 @@
+tag: vqav2
+source: HuggingFaceM4/VQAv2
+split: validation
+sample_count: 5000
+task_type: open_ended_vqa
+answer_space: top3000
+

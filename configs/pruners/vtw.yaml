@@ -1,0 +1,6 @@
+name: vtw
+reference: github.com/lzhxmu/VTW
+trigger_layer: tuned
+requires_attentions: false
+status: listed_not_implemented
+paper_eligible: false

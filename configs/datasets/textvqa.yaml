@@ -1,0 +1,7 @@
+tag: textvqa
+source: lmms-lab/textvqa
+split: validation
+sample_count: 5000
+task_type: open_ended_vqa
+answer_space: top3000
+

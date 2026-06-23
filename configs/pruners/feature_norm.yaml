@@ -1,0 +1,6 @@
+name: feature_norm
+description: Keep projected visual tokens with the largest feature norms.
+requires_attentions: false
+status: sanity_baseline
+paper_eligible: false
+
