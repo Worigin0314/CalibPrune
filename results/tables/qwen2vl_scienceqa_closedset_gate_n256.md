@@ -1,0 +1,6 @@
+Qwen2-VL closed-set sanity gate. Acc-minus-chance uses a paired bootstrap over per-sample correctness minus the uniform random chance for that sample's answer set.
+
+| Model | Dataset | Method | r | n | Accuracy | Mean_random_chance | Acc_minus_chance_95CI | ECE | AURC | Token_down | Verbalizer | GPU |
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+| qwen2vl_2b | scienceqa | fastv | 0.50 | 256 | 0.3984 | 0.3605 | 0.0380 [-0.0245, 0.1017] | 0.2272 | 0.4650 | 50.0% | as_written | NVIDIA GeForce RTX 4070 Laptop GPU |
+| qwen2vl_2b | scienceqa | none | 1.00 | 256 | 0.4727 | 0.3605 | 0.1122 [0.0486, 0.1721] | 0.1531 | 0.4510 | 0.0% | as_written | NVIDIA GeForce RTX 4070 Laptop GPU |

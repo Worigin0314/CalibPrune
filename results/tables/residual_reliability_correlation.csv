@@ -1,0 +1,5 @@
+comparison,pearson,spearman,n
+signed_delta_ece,-0.1786,-0.2473,13
+signed_delta_aurc,-0.5766,-0.6538,13
+abs_delta_ece,0.1847,-0.0440,13
+abs_delta_aurc,0.4542,0.3571,13

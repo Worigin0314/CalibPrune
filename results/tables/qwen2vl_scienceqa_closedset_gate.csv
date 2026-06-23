@@ -1,0 +1,3 @@
+Model,Dataset,Method,r,n,Accuracy,Mean_random_chance,Acc_minus_chance_95CI,ECE,AURC,Token_down,Verbalizer,GPU
+qwen2vl_2b,scienceqa,fastv,0.50,128,0.4375,0.3656,"0.0719 [-0.0158, 0.1612]",0.2105,0.4224,50.0%,as_written,NVIDIA GeForce RTX 4070 Laptop GPU
+qwen2vl_2b,scienceqa,none,1.00,128,0.5156,0.3656,"0.1500 [0.0625, 0.2392]",0.1414,0.4052,0.0%,as_written,NVIDIA GeForce RTX 4070 Laptop GPU

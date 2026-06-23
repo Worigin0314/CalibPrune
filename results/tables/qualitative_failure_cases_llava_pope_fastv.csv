@@ -1,0 +1,5 @@
+case,sample_index,question,gold,unpruned_pred,fastv_pred,unpruned_conf,fastv_conf,conf_delta,scalar_residual
+"same correct, confidence sharper",8891,Is there a boat in the image?,no,no,no,0.585,0.893,+0.308,0.836
+"same correct, confidence flatter",2808,Is there a tv in the image?,yes,yes,yes,0.777,0.558,-0.219,4.408
+answer flip after pruning,758,Is there a train in the image?,yes,no,yes,0.743,0.512,-0.231,23.984
+high scalar residual,5652,Is there a bowl in the image?,yes,no,no,0.810,0.570,-0.241,4.238

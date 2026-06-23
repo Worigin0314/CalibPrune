@@ -1,0 +1,4 @@
+| model      | dataset   | subset_name   | pruner   | pruner_evidence_type   |   retention | calibrator   |   n_samples |   n_seeds |   pooled_samples |   accuracy_mean |   ece_mean |   aurc_mean | paper_gate_pass   | paper_gate_reasons   |
+|:-----------|:----------|:--------------|:---------|:-----------------------|------------:|:-------------|------------:|----------:|-----------------:|----------------:|-----------:|------------:|:------------------|:---------------------|
+| qwen2vl_2b | pope      | test          | fastv    | literature-hook        |         0.5 | none         |         512 |         4 |             2048 |        0.509277 |   0.12951  |    0.48508  | True              | pass                 |
+| qwen2vl_2b | pope      | test          | none     | unpruned               |         1   | none         |         512 |         4 |             2048 |        0.49707  |   0.163495 |    0.489935 | True              | pass                 |

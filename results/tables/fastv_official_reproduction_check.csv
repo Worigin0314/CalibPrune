@@ -1,0 +1,13 @@
+source,model,setting,benchmark,official_score,repo_score,status,notes
+FastV arXiv 2403.06764 v3 Table 1,LLaVA-1.5-7B,Baseline,Nocaps CIDEr,99.8,,reference_only,Original FastV paper benchmark; not run in this repo yet.
+FastV arXiv 2403.06764 v3 Table 1,LLaVA-1.5-7B,Baseline,Flickr30k CIDEr,67.9,,reference_only,Original FastV paper benchmark; not run in this repo yet.
+FastV arXiv 2403.06764 v3 Table 1,LLaVA-1.5-7B,Baseline,A-OKVQA accuracy,76.7,,reference_only,Original FastV paper benchmark; not run in this repo yet.
+FastV arXiv 2403.06764 v3 Table 1,LLaVA-1.5-7B,Baseline,MMMU accuracy,34.8,,reference_only,Original FastV paper benchmark; not run in this repo yet.
+FastV arXiv 2403.06764 v3 Table 1,LLaVA-1.5-7B,FastV K=2 R=50%,Nocaps CIDEr,99.7,,reference_only,Original FastV paper benchmark; not run in this repo yet.
+FastV arXiv 2403.06764 v3 Table 1,LLaVA-1.5-7B,FastV K=2 R=50%,Flickr30k CIDEr,67.5,,reference_only,Original FastV paper benchmark; not run in this repo yet.
+FastV arXiv 2403.06764 v3 Table 1,LLaVA-1.5-7B,FastV K=2 R=50%,A-OKVQA accuracy,77.0,,reference_only,Original FastV paper benchmark; not run in this repo yet.
+FastV arXiv 2403.06764 v3 Table 1,LLaVA-1.5-7B,FastV K=2 R=50%,MMMU accuracy,34.4,,reference_only,Original FastV paper benchmark; not run in this repo yet.
+CalibPrune local POPE lite,LLaVA-1.5-7B 4-bit,none raw,POPE 128/512 accuracy,,0.833984,not_comparable,Different dataset and sampling protocol; useful for calibration gate only.
+CalibPrune local POPE lite,LLaVA-1.5-7B 4-bit,FastV r=0.50 raw,POPE 128/512 accuracy,,0.824219,not_official_reproduction,Different dataset and sampling protocol; cannot satisfy official FastV reproduction check.
+CalibPrune local A-OKVQA lite,LLaVA-1.5-7B 4-bit,none raw,A-OKVQA validation 32/64 accuracy,76.7,0.765625,official_task_smoke,Same benchmark family as FastV Table 1 but only a 64-sample validation slice.
+CalibPrune local A-OKVQA lite,LLaVA-1.5-7B 4-bit,FastV r=0.50 raw,A-OKVQA validation 32/64 accuracy,77.0,0.734375,official_task_smoke,Same benchmark family as FastV Table 1 but only a 64-sample validation slice and local FastV hook.

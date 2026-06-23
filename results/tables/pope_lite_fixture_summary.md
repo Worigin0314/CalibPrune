@@ -1,0 +1,6 @@
+| model   | dataset   | subset_name   | pruner   |   retention | calibrator   |   n_samples |   accuracy |      ece |   delta_ece |     aurc |   delta_aurc |   max_softmax_mean |   delta_max_softmax_mean | paper_eligible   |
+|:--------|:----------|:--------------|:---------|------------:|:-------------|------------:|-----------:|---------:|------------:|---------:|-------------:|-------------------:|-------------------------:|:-----------------|
+| toy_vlm | pope      | cal           | fastv    |         0.5 | none         |           4 |        0.5 | 0.499571 |           0 | 0.395833 |            0 |           0.703663 |                        0 | False            |
+| toy_vlm | pope      | cal           | none     |         1   | none         |           4 |        0.5 | 0.499571 |           0 | 0.395833 |            0 |           0.703663 |                        0 | False            |
+| toy_vlm | pope      | test          | fastv    |         0.5 | none         |           6 |        0.5 | 0.591269 |           0 | 0.683333 |            0 |           0.684268 |                        0 | False            |
+| toy_vlm | pope      | test          | none     |         1   | none         |           6 |        0.5 | 0.591269 |           0 | 0.683333 |            0 |           0.684268 |                        0 | False            |

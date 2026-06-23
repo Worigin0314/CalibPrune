@@ -1,0 +1,6 @@
+| model           | dataset   | subset_name   | pruner   |   retention |   n_samples |   accuracy |       ece |   delta_ece |     aurc |   delta_aurc |   max_softmax_mean |   delta_max_softmax_mean | paper_eligible   |
+|:----------------|:----------|:--------------|:---------|------------:|------------:|-----------:|----------:|------------:|---------:|-------------:|-------------------:|-------------------------:|:-----------------|
+| llava15_7b_4bit | pope      | cal           | fastv    |         0.5 |           8 |      1     | 0.0953164 |  -0.0358126 | 0        |     0        |           0.904684 |                0.0358126 | False            |
+| llava15_7b_4bit | pope      | cal           | none     |         1   |           8 |      1     | 0.131129  |   0         | 0        |     0        |           0.868871 |                0         | False            |
+| llava15_7b_4bit | pope      | test          | fastv    |         0.5 |          16 |      0.875 | 0.128322  |  -0.0576747 | 0.152962 |     0.047619 |           0.861457 |               -0.001977  | False            |
+| llava15_7b_4bit | pope      | test          | none     |         1   |          16 |      0.875 | 0.185997  |   0         | 0.105343 |     0        |           0.863434 |                0         | False            |

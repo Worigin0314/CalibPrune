@@ -1,0 +1,3 @@
+model,dataset,subset_name,pruner,retention,calibrator,n_samples,n_seeds,seeds,pruner_evidence_type,paper_eligible_all,accuracy_mean,accuracy_std,ece_mean,ece_std,delta_ece_mean,delta_ece_std,delta_ece_vs_raw_mean,delta_ece_vs_raw_std,aurc_mean,aurc_std,aurc_margin_mean,aurc_margin_std,aurc_entropy_mean,aurc_entropy_std,delta_aurc_vs_raw_mean,delta_aurc_vs_raw_std,max_softmax_mean_mean,max_softmax_mean_std
+qwen2vl_2b,pope,test,fastv,0.5,none,1,1,20260616,literature-hook,False,0.0,0.0,0.7154239957834733,0.0,0.062297081563164824,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.7154239957834733,0.0
+qwen2vl_2b,pope,test,none,1.0,none,1,1,20260616,unpruned,False,0.0,0.0,0.6531269142203084,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.6531269142203084,0.0

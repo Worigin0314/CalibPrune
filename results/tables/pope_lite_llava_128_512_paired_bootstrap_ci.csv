@@ -1,0 +1,16 @@
+comparison,metric,estimate,ci_low,ci_high,n_samples,n_resamples,confidence,interpretation
+FastV raw - unpruned raw,accuracy,-0.005859375,-0.017578125,0.005859375,1536,1000,0.95,positive_ece_means_drift
+FastV raw - unpruned raw,ece,0.018622681832626824,0.0028610768262815924,0.03397409511044461,1536,1000,0.95,positive_ece_means_drift
+FastV raw - unpruned raw,adaptive_ece,0.014880479284680524,-0.004814448453570069,0.02913303740631459,1536,1000,0.95,positive_ece_means_drift
+FastV raw - unpruned raw,aurc,0.009141783875555448,0.00256963309602667,0.01705938093829208,1536,1000,0.95,positive_ece_means_drift
+FastV raw - unpruned raw,max_softmax_mean,0.008117722538995786,0.004828210444236028,0.011509078668279837,1536,1000,0.95,positive_ece_means_drift
+CalibPrune - FastV raw,accuracy,0.0,0.0,0.0,1536,1000,0.95,negative_ece_means_improvement
+CalibPrune - FastV raw,ece,-0.028302229657985213,-0.04030354956440882,-0.003204856995904708,1536,1000,0.95,negative_ece_means_improvement
+CalibPrune - FastV raw,adaptive_ece,-0.015962414449321463,-0.029723675070232568,0.0014233816848060574,1536,1000,0.95,negative_ece_means_improvement
+CalibPrune - FastV raw,aurc,0.0056790328340701884,-0.0010708614548005555,0.012265743165376156,1536,1000,0.95,negative_ece_means_improvement
+CalibPrune - FastV raw,max_softmax_mean,-0.03803276014771573,-0.039683158900955084,-0.03638823938028746,1536,1000,0.95,negative_ece_means_improvement
+CalibPrune - unpruned raw,accuracy,-0.005859375,-0.017578125,0.005859375,1536,1000,0.95,negative_ece_means_below_unpruned
+CalibPrune - unpruned raw,ece,-0.00967954782535839,-0.022583129958609924,0.014894328005768767,1536,1000,0.95,negative_ece_means_below_unpruned
+CalibPrune - unpruned raw,adaptive_ece,-0.001081935164640939,-0.02103781178516264,0.01553992508958224,1536,1000,0.95,negative_ece_means_below_unpruned
+CalibPrune - unpruned raw,aurc,0.014820816709625637,0.0057457045767233305,0.026047316065249626,1536,1000,0.95,negative_ece_means_below_unpruned
+CalibPrune - unpruned raw,max_softmax_mean,-0.02991503760871994,-0.033312956773508255,-0.02630485798255934,1536,1000,0.95,negative_ece_means_below_unpruned

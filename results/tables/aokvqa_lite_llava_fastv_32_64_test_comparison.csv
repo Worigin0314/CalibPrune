@@ -1,0 +1,3 @@
+model,dataset,subset_name,pruner,retention,calibrator,n_samples,n_seeds,seeds,pruner_evidence_type,paper_eligible_all,accuracy_mean,accuracy_std,ece_mean,ece_std,delta_ece_mean,delta_ece_std,delta_ece_vs_raw_mean,delta_ece_vs_raw_std,aurc_mean,aurc_std,delta_aurc_vs_raw_mean,delta_aurc_vs_raw_std,max_softmax_mean_mean,max_softmax_mean_std
+llava15_7b_4bit,aokvqa,test,fastv,0.5,none,64,1,20260616,literature-hook,False,0.734375,0.0,0.1790077976658639,0.0,0.044264564903116616,0.0,0.0,0.0,0.08382028682689999,0.0,0.0,0.0,0.872708843890497,0.0
+llava15_7b_4bit,aokvqa,test,none,1.0,none,64,1,20260616,unpruned,False,0.765625,0.0,0.13474323276274727,0.0,0.0,0.0,0.0,0.0,0.09060489993904616,0.0,0.0,0.0,0.8626746600804194,0.0

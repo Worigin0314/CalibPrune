@@ -1,0 +1,6 @@
+comparison,metric,estimate,ci_low,ci_high,n_samples,n_resamples,confidence,seed_delta_mean,seed_delta_bca_ci_low,seed_delta_bca_ci_high,wilcoxon_statistic,wilcoxon_p,wilcoxon_n,interpretation,wilcoxon_holm_p,wilcoxon_holm_reject
+AdaptiveCalibPrune - temperature scaling (fastv r=0.5),accuracy,0.0,0.0,0.0,1145,1000,0.95,0.0,,,0.0,1.0,0,negative_ece_means_adaptive_improvement,1.0,False
+AdaptiveCalibPrune - temperature scaling (fastv r=0.5),ece,0.0879187856458884,0.06593105029851738,0.10353868736394568,1145,1000,0.95,0.0879187856458884,,,0.0,1.0,1,negative_ece_means_adaptive_improvement,1.0,False
+AdaptiveCalibPrune - temperature scaling (fastv r=0.5),adaptive_ece,0.08996936324365176,0.0692331040190164,0.10557963780848441,1145,1000,0.95,0.08996936324365176,,,0.0,1.0,1,negative_ece_means_adaptive_improvement,1.0,False
+AdaptiveCalibPrune - temperature scaling (fastv r=0.5),aurc,0.0023031893093961725,0.0009827561729667247,0.0036170232575414327,1145,1000,0.95,0.0023031893093961725,,,0.0,1.0,1,negative_ece_means_adaptive_improvement,1.0,False
+AdaptiveCalibPrune - temperature scaling (fastv r=0.5),max_softmax_mean,-0.09802103222871272,-0.10241335070220892,-0.09379183036326245,1145,1000,0.95,-0.09802103222871272,,,0.0,1.0,1,negative_ece_means_adaptive_improvement,1.0,False

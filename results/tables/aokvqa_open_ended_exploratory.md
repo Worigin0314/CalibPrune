@@ -1,0 +1,6 @@
+Bounded A-OKVQA direct-answer candidate reranking. The prompt does not expose the answer vocabulary; candidates are used only for likelihood-based post-hoc scoring.
+
+| Model | Dataset | Pruner | r | n | Vocab | SoftScore | SoftDelta | ExactAny | ECE | AURC | Conf | Residual | SecPerSample |
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+| llava15_7b_4bit | aokvqa_direct_answer | none | 1.00 | 512 | 128 | 0.5345 | +0.0000 | 0.6348 | 0.1043 | 0.1753 | 0.5387 |  | 0.517 |
+| llava15_7b_4bit | aokvqa_direct_answer | fastv | 0.50 | 512 | 128 | 0.5130 | -0.0215 | 0.6094 | 0.0887 | 0.1855 | 0.5339 | 0.1006 | 0.664 |
